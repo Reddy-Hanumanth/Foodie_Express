@@ -1,17 +1,18 @@
 import React from "react";
 import { assets } from "../assets/assets";
+import { Link } from "react-router-dom";
 
 const Popular_Categories = () => {
   return (
-    <div className="max-w-6xl items-center justify-center mx-auto px-2 space-y-6">
+    <div className="max-w-6xl items-center justify-center mx-auto px-2 space-y-6 mt-15">
       <div className="flex pt-20 justify-between items-center">
         <div>
           <h1 className="text-3xl font-bold">Popular Categories</h1>
         </div>
         <div>
-          <span className="text-orange-500 cursor-pointer hover:border-b border-orange-500 font-semibold">
+          <Link to="/menu" className="text-orange-500 cursor-pointer hover:border-b border-orange-500 font-semibold">
             view All{" "}
-          </span>
+          </Link>
         </div>
       </div>
 

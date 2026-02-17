@@ -3,9 +3,9 @@ import { assets } from "../assets/assets";
 
 const Hero = () => {
   return (
-    <section className="w-full flex justify-center mt-8 px-4">
+    <section className="w-full flex justify-center mt-16 px-4">
       <div
-        className="relative w-full max-w-6xl h-[440px] rounded-2xl overflow-hidden bg-cover bg-center"
+        className="relative w-full max-w-7xl h-[440px] rounded-2xl overflow-hidden bg-cover bg-center"
         style={{
           backgroundImage: `url(${assets.backgroundImage})`,
         }}

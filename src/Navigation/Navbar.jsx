@@ -1,5 +1,8 @@
 import React from "react";
 import { assets } from "../assets/assets";
+import { Link } from "react-router-dom";
+import Food from "../Pages/Food";
+
 const Navbar = () => {
   return (
     <div className="sticky top-0 z-[100] flex justify-between items-center  p-5 bg-[#efeded]/80 border-b border-gray-300/50 h-18">
@@ -12,12 +15,12 @@ const Navbar = () => {
      <div className="flex justify-between space-x-22 items-center">
         {/* Nav Components */}
         <div className="hidden sm:flex  justify-between space-x-5 font-semibold">
-          <p className="cursor-pointer hover:text-orange-500 border-b-2 border-transparent hover:border-orange-500 transition-all">
+          <Link to='/' className="cursor-pointer hover:text-orange-500 border-b-2 border-transparent hover:border-orange-500 transition-all">
             Home
-          </p>
-          <p className="cursor-pointer hover:text-orange-500 border-b-2 border-transparent hover:border-orange-500 transition-all">
+          </Link>
+          <Link to='/menu' className="cursor-pointer hover:text-orange-500 border-b-2 border-transparent hover:border-orange-500 transition-all">
             Menu
-          </p>
+          </Link>
           <p className="cursor-pointer hover:text-orange-500 border-b-2 border-transparent hover:border-orange-500 transition-all">
             About Us
           </p>
