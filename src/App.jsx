@@ -1,15 +1,13 @@
 import react from 'react'
 import Navbar from './Navigation/Navbar'
 import Hero from './Navigation/Hero'
-import Popular_Categories from './Components/Popular_Categories'
-import Trending from './Components/Trending'
 import Footer from './Components/Footer'
 import Home from './Home' 
 
 
 import { ToastContainer, toast } from 'react-toastify'
 import { Route, Routes } from 'react-router-dom'
-import Food from './Pages/Food'
+import Food from './Pages/Menu'
 import About_US from './Pages/About_US'
 
 function App() {

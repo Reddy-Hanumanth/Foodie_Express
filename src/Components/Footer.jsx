@@ -62,7 +62,7 @@ const Footer = () => {
         
         </div>
 
-          <hr className="border-t border-gray-400/30 w-full max-w-6xl my-10"/>
+        <hr className="border-t border-gray-400/30 w-full max-w-6xl my-10"/>
 
         <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-6xl gap-4">
             <div>
@@ -70,8 +70,8 @@ const Footer = () => {
             </div>
             <div className="flex gap-6 text-[#9c5e49]">
               <i className="fa-solid fa-earth-asia hover:text-orange-500"></i>
-              <i class="fa-solid fa-share-nodes hover:text-orange-500"></i>
-              <i class="fa-regular fa-thumbs-up hover:text-orange-500"></i>
+              <i className="fa-solid fa-share-nodes hover:text-orange-500"></i>
+              <i className="fa-regular fa-thumbs-up hover:text-orange-500"></i>
             </div>
         </div>
       </footer>
